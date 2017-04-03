@@ -1,0 +1,71 @@
+/**/
+body{
+	font-size:100%;
+	padding:0em;
+	margin:0em;
+	margin-bottom:0em;
+	overflow:auto;
+	overflow-x:hidden;
+	font-family: "Code";
+}
+/**/
+#logout{
+	display: inline-block;
+	cursor: pointer;
+}
+
+/**/
+#logout:hover{
+	text-decoration: underline;
+}
+
+input{
+	vertical-align: middle;
+}
+label{
+	vertical-align: middle;
+}
+/**/
+td{
+	padding: 0.5em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+
+/**/
+#toolbar{
+	padding:1em;
+	padding-top:0.2em;
+	font-size: 1.1em;
+}
+
+/**/
+a{
+	color:black;
+}
+
+td{
+	max-width: 70em;
+}
+label{
+	cursor:pointer;
+}
+
+.queryClass:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#sendMessage{
+	padding:0.4em;
+	background: white;
+	display: inline-block;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 10%;
+	transition: all 0.2s;
+}
+#sendMessage:hover{
+	background-color: black;
+	color:white;
+}
